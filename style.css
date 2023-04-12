@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.accomodation_div {
+    display: flex;
+    gap: 45px;
+}
+
+ .accomodation {
+    color: #0071c5;
+    border-top: 2px solid #0071c5;
+    padding: 28px 20px;
+}
+
+.activities {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+    /* border: 1px solid gray; */
+    /* border-radius: 25px; */
+    width: min-content;
+    /* padding: 20px; */
+    margin: 30px 0
+}
+
+.pin{
+    background: #f2f2f2;
+    padding: 16px 25px;
+    border-radius: 20px 0 0 20px;
+}
+
+.search_p {
+    width: max-content;
+    padding: 19px 50px 19px 15px;
+    border: 1px solid #f2f2f2;
+    font-weight: 800;
+}
+
+.search_search {
+    background: #0071c5;
+    padding: 20px 40px;
+    border-radius: 0 20px 20px 0;
+    font-weight: 800;
+    color: white;
+}
+
+.filters_container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.filters_p {
+    font-weight: 800;
+    margin-right: 25px;
+}
+
+.filters_container i {
+    align-self: center;
+    color: #0071c5;
+    background-color:#F0F8FF;
+    border: 1px solid #F0F8FF;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#child {
+    padding: 15px 20px;
+}
+
+.filters_icons {
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 60px;
+}
+
+
+.icon_p {
+    padding: 20px;
+}
